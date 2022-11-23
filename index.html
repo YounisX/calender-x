@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="jquery/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+
+  <section id="navbar " class="my-0">
+    <nav>
+      <div class="container bg-yellow d-flex justify-content-between align-items-center ">
+        <div class="nav-left-container d-flex align-items-center">
+          <div class="language pr-1 text-primary">
+            اللفة العربية<span class="pl-2"><i class="fa-solid  fa-globe"></i></span>
+          </div>
+          <div class="space px-2">|</div>
+          <div class="dropdown-container">
+            <!-- Example split danger button -->
+            <div class="btn-group1 d-flex flex-row-reverse align-items-center justify-content-center">
+              <div class="name mx-1">
+                محمد أشرف
+              </div>
+
+              <div class="dropdown-menu ">
+                <a class="dropdown-item" href="#">الحساب الشخصي<i class="fa-solid fa-user mx-2"></i></a>
+                <a class="dropdown-item bg-info text-white" href="#">التقويم<i
+                    class=" fa-solid fa-calendar-days mx-2 text-white"></i></a>
+                <a class="dropdown-item text-danger" href="#">تسجيل الخروج <i
+                    class="text-danger fa-solid fa-power-off ml-1 mr-2"></i></a>
+
+
+              </div>
+              <button type="button" class="btn btn-danger1 dropdown-toggle dropdown-toggle-split "
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="language pl-2 pr-1 text-primary">
+            !مرحباً بك
+          </div>
+          <div class="avatar">
+            <img src="img/pngwing.com (1).png" alt="avatar" class="avatar">
+          </div>
+        </div>
+
+        <div class="nav-right">
+          <div class="logo">
+            <div class="float-logo font-weight-bold">اللوجو</div>
+            <img src="img/Calendar – 1.png" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <section id="calender" class="m-4">
+    <div class="container px-0">
+      <div class="row gy-4 px-0">
+        <div class="col-md-4 ">
+          <div class="container m-0 pr-5 pl-0">
+            <div class="row flex-column">
+              <div class="col-md-12">
+                <h4 class="date-above text-center" id="currentDate"> </h3>
+              </div>
+              <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div class="mt-3 mb-0 calender-box">
+                  <div class="calender-header d-flex justify-content-between">
+                    <div class="year" >
+                      <h5 id="currentYear" class="text-left text-white"></h5>
+                    </div>
+                    <div class="arrows d-flex just mt-2 text-white">
+                      <div class="prev-btn mx-2" ><i class="fa-solid fa-angle-up" id="previous" ></i></div>
+                      <div class="next-btn mr-3"><i class="fa-solid fa-angle-down" id="next"  ></i></div>
+                    </div>
+
+                  </div>
+                  <div class="calender-body mb-2 p-2">
+                    <div class="months-container" id="months">
+                      <div class="month-1 month my-1" id="0" >يناير</div>
+                      <div class="month-1 month my-1" id="1">فبراير</div>
+                      <div class="month-1 month my-1"  id="2">مارس</div>
+                      <div class="month-1 month my-1" id="3">إبريل</div>
+                      <div class="month-1 month my-1 "  id="4">مايو</div>
+                      <div class="month-1 month my-1" id="5">يونيو</div>
+                      <div class="month-1 month my-1"  id="6">يوليو</div>
+                      <div class="month-1 month my-1 aug"  id="7">أغسطس</div>
+                      <div class="month-1 month my-1"  id="8">سبتمبر</div>
+                      <div class="month-1 month my-1"  id="9">أكتوبر</div>
+                      <div class="month-1 month my-1 active"  id="10">نوفمبر</div>
+                      <div class="month-1 month my-1"  id="11">ديسمبر</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12 ">
+          <div class="calender-title w-100 text-right ">
+            التقويم
+          </div>
+          <div class="calender-tasks pt-3">
+            
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section id="event" class="py-5">
+
+
+
+
+
+
+        <table class="table table-borderless table-condensed table-hover px-5 mx-5 ">
+    <thead>
+      <tr >
+        <th class="hint" scope="col ">المستخدمين</th>
+        <th scope="col">عدد المقاعد</th>
+        <th scope="col">الجلسة</th>
+        <th scope="col">إلى</th>
+        <th scope="col">من</th>
+      </tr>
+    </thead>
+  
+  </table>
+
+    <div class="continerx mt-5" >
+
+      <div class="task-inputs my-4 px-5">
+        <button id="addBtn" class="mx-4 btn btn-success  btn-outline-success px-4">إضافة <span><i class="fa-solid  fa-plus"></i></span></button>
+        <div class="input-1 ml-5" >
+          <input type="number" placeholder="0" name="userCount" id="userCount" >
+        </div>
+        <div class="input-2 mx-2" >
+          <input type="number" placeholder="0" name="userCount" id="chairCount" >
+        </div>
+        <div class="input-3 mx-2" >
+          <input type="text" placeholder="إسم الجلسة" name="userCount" id="session" >
+        </div>
+        <div class="input-4 mx-2 ml-5" >
+          <input type="text" placeholder="10:00:00 AM" name="userCount" id="to" >
+        </div>
+        <div class="input-5 mx-2" >
+          <input type="text" placeholder="10:00:00 AM" name="userCount" id="from" >
+        </div>
+      </div>
+      <div  id="display">
+       
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html> 

@@ -1,0 +1,210 @@
+#navbar {
+    height: 40px;
+    background-color: yellow;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+
+}
+.num{
+width: 10%;
+}
+.hint 
+{
+  text-align: end;
+}
+.avatar{
+    width: 35px;
+    border: solid 0.1px blue;
+    border-radius: 50% ;
+}
+.btn-group1{
+    background-color: none !important;
+}
+.btn-danger1{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+}
+.dropdown-menu{
+    text-align: end;
+}
+.float-logo{
+    position: absolute;
+    left: -7px;
+    top: 5px;
+}
+.logo{
+    position: relative;
+    
+}
+.date-above{
+    font-weight: 900;
+    color: #0A0094;
+    font-size: 21px;
+
+}
+.calender-box{
+    height: 258px;
+    width: 255px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid 1px #1766FF;
+    overflow: hidden;
+}
+.calender-header{
+    background-color: #1766FF;
+    height: 45px;
+}
+.year{
+    padding: 10px 20px;
+    color: white;
+}
+
+.arrows{
+    cursor: pointer;
+}
+.month{
+    text-align: center;
+    width: 23%;
+    text-align: center;
+
+    height: 40px;
+font-size: 16px;
+color: #0A0094;
+border-radius: 15px;
+padding: 0;
+margin: 0px 10px;
+
+font-weight: normal;
+}
+.month:hover{
+background-color: #1766FF;
+cursor: pointer;
+}
+.active{
+    background-color: #1766FF;
+}
+.months-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.aug{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.calender-title {
+     font-weight: 600;
+     color: #0A0094;
+     text-align: end;
+     font-size: 20px;
+     font-weight: 500;
+     position: relative;
+}
+.calender-title::after{
+    content: "";
+    height: 7px;
+    top: 70%;
+    width: 10%;
+    right: 1%;
+    position: absolute;
+    background-color: #1b4496;
+    opacity: 0.5;
+    z-index: 67;
+
+
+}
+.taqweem{
+    position: relative;
+}
+.task-btn{
+    width: 11%;
+    height: 50px;
+    margin: 10px 5px 5px 0px ;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#dddddd7f;
+    color: #b5b5b5;
+    cursor: pointer;
+    transition: all 1s;
+    
+
+}
+.task-btn:hover{
+    border: 1px solid #dddddd7f;
+    background-color: #1766FF;
+    color: white;
+}
+.calender-tasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+table{
+    border: none !important;
+    border-bottom: none;
+}
+input{
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 1px #1766FF;
+    outline: none;
+    text-align: end;
+    height: 45px;
+    padding: 10px;
+
+
+
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:hover{
+    background-color: #1766FF;
+    color: white;
+
+}
+.dropdown-toggle:hover{
+    background-color: #1766FF;
+}
+::placeholder{
+    color: #b5b5b5;
+    opacity: 1;
+    padding: 10px;
+}
+
+.task-inputs{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-1 input{
+    width: 70%;
+}
+.input-2 input{
+    width: 70%;
+}
+.input-4 input{
+    width: 70%;
+}
+
+.input-5 input{
+    width: 70%;
+}
+.input-3 input{
+    width: 350px;
+}
